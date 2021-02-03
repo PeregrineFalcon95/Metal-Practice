@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A84DE7025C6BB9200540211 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A84DE6F25C6BB9200540211 /* AppDelegate.swift */; };
+		9A84DE7225C6BB9200540211 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A84DE7125C6BB9200540211 /* SceneDelegate.swift */; };
+		9A84DE7425C6BB9200540211 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A84DE7325C6BB9200540211 /* ViewController.swift */; };
+		9A84DE7725C6BB9200540211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A84DE7525C6BB9200540211 /* Main.storyboard */; };
+		9A84DE7925C6BB9600540211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A84DE7825C6BB9600540211 /* Assets.xcassets */; };
+		9A84DE7C25C6BB9600540211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A84DE7A25C6BB9600540211 /* LaunchScreen.storyboard */; };
+		9A84DE8525C6CB2300540211 /* ImageFilter.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9A84DE8425C6CB2300540211 /* ImageFilter.metal */; };
+		9A84DE8825C6D2ED00540211 /* MetalImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A84DE8725C6D2ED00540211 /* MetalImageFilter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A84DE6C25C6BB9200540211 /* Invert Color filter with Metal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Invert Color filter with Metal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A84DE6F25C6BB9200540211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A84DE7125C6BB9200540211 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9A84DE7325C6BB9200540211 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A84DE7625C6BB9200540211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A84DE7825C6BB9600540211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A84DE7B25C6BB9600540211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A84DE7D25C6BB9600540211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A84DE8425C6CB2300540211 /* ImageFilter.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ImageFilter.metal; sourceTree = "<group>"; };
+		9A84DE8725C6D2ED00540211 /* MetalImageFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalImageFilter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A84DE6925C6BB9200540211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A84DE6325C6BB9200540211 = {
+			isa = PBXGroup;
+			children = (
+				9A84DE6E25C6BB9200540211 /* Invert Color filter with Metal */,
+			);
+			sourceTree = "<group>";
+		};
+		9A84DE6D25C6BB9200540211 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A84DE6C25C6BB9200540211 /* Invert Color filter with Metal.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9A84DE6E25C6BB9200540211 /* Invert Color filter with Metal */ = {
+			isa = PBXGroup;
+			children = (
+				9A84DE6F25C6BB9200540211 /* AppDelegate.swift */,
+				9A84DE7125C6BB9200540211 /* SceneDelegate.swift */,
+				9A84DE8425C6CB2300540211 /* ImageFilter.metal */,
+				9A84DE8725C6D2ED00540211 /* MetalImageFilter.swift */,
+				9A84DE7325C6BB9200540211 /* ViewController.swift */,
+				9A84DE7525C6BB9200540211 /* Main.storyboard */,
+				9A84DE7825C6BB9600540211 /* Assets.xcassets */,
+				9A84DE7A25C6BB9600540211 /* LaunchScreen.storyboard */,
+				9A84DE7D25C6BB9600540211 /* Info.plist */,
+				9A84DE6D25C6BB9200540211 /* Products */,
+			);
+			path = "Invert Color filter with Metal";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A84DE6B25C6BB9200540211 /* Invert Color filter with Metal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A84DE8025C6BB9600540211 /* Build configuration list for PBXNativeTarget "Invert Color filter with Metal" */;
+			buildPhases = (
+				9A84DE6825C6BB9200540211 /* Sources */,
+				9A84DE6925C6BB9200540211 /* Frameworks */,
+				9A84DE6A25C6BB9200540211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Invert Color filter with Metal";
+			productName = "Invert Color filter with Metal";
+			productReference = 9A84DE6C25C6BB9200540211 /* Invert Color filter with Metal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A84DE6425C6BB9200540211 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9A84DE6B25C6BB9200540211 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 9A84DE6725C6BB9200540211 /* Build configuration list for PBXProject "Invert Color filter with Metal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A84DE6325C6BB9200540211;
+			productRefGroup = 9A84DE6D25C6BB9200540211 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A84DE6B25C6BB9200540211 /* Invert Color filter with Metal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A84DE6A25C6BB9200540211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A84DE7C25C6BB9600540211 /* LaunchScreen.storyboard in Resources */,
+				9A84DE7925C6BB9600540211 /* Assets.xcassets in Resources */,
+				9A84DE7725C6BB9200540211 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A84DE6825C6BB9200540211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A84DE7425C6BB9200540211 /* ViewController.swift in Sources */,
+				9A84DE7025C6BB9200540211 /* AppDelegate.swift in Sources */,
+				9A84DE7225C6BB9200540211 /* SceneDelegate.swift in Sources */,
+				9A84DE8825C6D2ED00540211 /* MetalImageFilter.swift in Sources */,
+				9A84DE8525C6CB2300540211 /* ImageFilter.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A84DE7525C6BB9200540211 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A84DE7625C6BB9200540211 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A84DE7A25C6BB9600540211 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A84DE7B25C6BB9600540211 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A84DE7E25C6BB9600540211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A84DE7F25C6BB9600540211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A84DE8125C6BB9600540211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N963Y7TNMV;
+				INFOPLIST_FILE = "Invert Color filter with Metal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solutioncat.Invert-Color-filter-with-Metal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A84DE8225C6BB9600540211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N963Y7TNMV;
+				INFOPLIST_FILE = "Invert Color filter with Metal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solutioncat.Invert-Color-filter-with-Metal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A84DE6725C6BB9200540211 /* Build configuration list for PBXProject "Invert Color filter with Metal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A84DE7E25C6BB9600540211 /* Debug */,
+				9A84DE7F25C6BB9600540211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A84DE8025C6BB9600540211 /* Build configuration list for PBXNativeTarget "Invert Color filter with Metal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A84DE8125C6BB9600540211 /* Debug */,
+				9A84DE8225C6BB9600540211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A84DE6425C6BB9200540211 /* Project object */;
+}
