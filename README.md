@@ -7,3 +7,6 @@ This project creates a triangle on the screen with three vertex having three dif
 
 ### Rotating Cube with Metal from RayWenderlich --
 This project creates a 3D gradient colored cube. Which moves forword and backwords.
+
+### Invert Color filter with Metal --
+This project is created for a basic filter created with Metal. The filter inverses colors of each pixel without changing the opacity. 
